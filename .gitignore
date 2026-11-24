@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+
+# build
+dist
+coverage
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea
+
+# TypeScript incremental build
+*.tsbuildinfo
